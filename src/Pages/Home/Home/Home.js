@@ -1,9 +1,10 @@
 import React from 'react';
+import AgencyBanner from '../AgencyBanner/AgencyBanner';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is Home</h2>
+        <div className='w-4/5 mx-auto'>
+            <AgencyBanner></AgencyBanner>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import facebookImg from '../../../Assests/facebook.svg';
 import twitterImg from '../../../Assests/twitter.svg';
 import imoImg from '../../../Assests/imo.svg';
 import whatsappImg from '../../../Assests/whatsapp.svg';
-import instragramImg from '../../../Assests/instragram.svg';
+import instagramImg from '../../../Assests/instagram.svg';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -45,11 +45,11 @@ const Footer = () => {
             <div>
                 <span className="text-lg font-semibold">Social Media</span>
                 <div className='flex gap-x-2'>
-                    <img src={facebookImg} alt="" />
-                    <img src={twitterImg} alt="" />
-                    <img src={imoImg} alt="" />
-                    <img src={whatsappImg} alt="" />
-                    <img src={instragramImg} alt="" />
+                    <img src={facebookImg} alt="facebook" />
+                    <img src={twitterImg} alt="Twitter" />
+                    <img src={imoImg} alt="Imo" />
+                    <img src={whatsappImg} alt="Whats App" />
+                    <img src={instagramImg} alt="Instagram" />
                 </div>
                 <div className='flex items-center'>
                     <EnvelopeIcon className="h-4 w-4 text-white mr-1" />
