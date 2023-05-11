@@ -32,12 +32,11 @@ const Navbar = () => {
             </div>
             <div className="navbar-end w-3/5">
                 <div className='flex items-center'>
-                    <div className="form-control">
-                        <input type="text" placeholder="Search Flight, Hotel, Visa" className="border-2 border-e-0 border-primary rounded-md rounded-r-none w-64 p-2"
-                        />
-                    </div>
-                    <div className='border-2 border-l-0 border-primary rounded-md rounded-l-none p-2 bg-base-200 items-center'>
-                        <img src={searchIcon} alt="Search Icon" />
+                    <div className="form-control flex-row border border-primary rounded-md">
+                        <input type="text" placeholder="Search Flight, Hotel, Visa" className='w-60 p-2' />
+                        <span className='p-2'>
+                            <img src={searchIcon} alt="Search Icon" className='w-5' />
+                        </span>
                     </div>
                 </div>
                 <div className='ml-8'>
