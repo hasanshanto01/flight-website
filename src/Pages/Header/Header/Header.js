@@ -11,8 +11,8 @@ const Header = () => {
             <div className='relative'>
                 <Navbar></Navbar>
                 <Banner></Banner>
+                <Packages></Packages>
             </div>
-            <Packages></Packages>
         </div>
     );
 };
