@@ -5,7 +5,7 @@ const MissionAndVision = () => {
     return (
         <div className='my-16'>
             <div className='text-center mb-10'>
-                <h2 className='text-2xl font-bold'>Our Mission &  Vision</h2>
+                <h2 className='text-2xl font-bold mb-2'>Our Mission &  Vision</h2>
                 <p>Serving our customer, searching their entire satisfaction and providing <br />
                     touristic services of quality, committing to the social, cultural and <br />
                     environmental reality of our country.</p>
